@@ -1,0 +1,86 @@
+/* Hay tres formas de llamar elementos de html en un css.
+1) por Etiqueta: body{}
+2) por clase: .clase{} -> las clases se pueden repetir en un página
+3) por ID: #id{} -> solo puede existir un unico id
+*/
+
+
+body {
+  margin: 0; /* siemre se deben inicializar los margenes  */
+  font-family: 'Poppins', sans-serif;
+}
+
+header .contenedor {
+  display: flex; /* flex convierte el contenedor en caja flexible y siempre va sobre el elemento padre */
+  justify-content: space-between; /*separar los dos elementos del contenedor la mayor distancia posible */
+}
+
+header .lista_menu {
+  display: flex; /* se utiliza para colocar los elementos uno al lado del otro*/
+}
+
+header ul li {
+  list-style: none; /* para eliminar el estilo de los items de la lista */
+  margin-right: 15px; /* para separar los elementos de la lista 15px */
+}
+
+a {
+  text-decoration: none;
+}
+
+.contenedor {
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  background:
+  linear-gradient(rgba(84,93,220,.9), rgba(96,171,245,.9)), /* para crear un gradiente*/
+  url(../imagenes/architecture-sky-sunlight-wave-wind-roof-142539-pxhere.com.jpg);
+  height: 100vh; /* para que ocupe el 100% del alto de la ventana */
+  background-size: cover; /* adaptar la imagen al ancho de la pantalla*/
+}
+
+#contenedor_titulo_flex {
+  display: flex;  /*se coloca para que se pueda centrar el contenido, justify depende del flex */
+  justify-content: center;
+  margin: 18vh 0; /* se utiliza para centrar los titulos en lo alto de la ventana
+                  margin-top y margin-bottom= 18vh y margin-left y margin-right = 0  */
+  max-width: 1580px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 60px;
+  color: #fff;
+  margin: 0;
+}
+
+h2 {
+  font-size: 25px;
+  color: #fff;
+}
+
+.contenedor_titulo {
+  text-align: center;
+}
+
+.contenedor_titulo a { /* el a es un elemento en linea  */
+  font-size: 14px;
+  color: #fff;
+  background: #5cb8ff; /* se utiliza para agregar un fondo al boton */
+  padding: 14px 24px; /* se utiliza para agrandar el tamaño del elemento (botón) */
+  width: 128px;
+  display: inline-block; /* se utiliza para que el elemento a se omporte como un elemento
+                        de bloque y poder aplicar las propiedades de bloque sobre a */
+}
+
+p.logo {
+  color: #fff;
+  font-size: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+}
