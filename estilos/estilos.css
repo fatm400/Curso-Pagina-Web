@@ -11,7 +11,7 @@ body {
 }
 
 header .contenedor {
-  display: flex; /* flex convierte el contenedor en caja flexible y siempre va sobre el elemento padre */
+  /*display: flex; flex convierte el contenedor en caja flexible y siempre va sobre el elemento padre */
   justify-content: space-between; /*separar los dos elementos del contenedor la mayor distancia posible */
 }
 
