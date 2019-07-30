@@ -43,7 +43,7 @@ header {
 }
 
 #contenedor_titulo_flex {
-  display: flex;  /*se coloca para que se pueda centrar el contenido, justify depende del flex */
+  /* display: flex;  /*se coloca para que se pueda centrar el contenido, justify depende del flex */
   justify-content: center;
   margin: 18vh 0; /* se utiliza para centrar los titulos en lo alto de la ventana
                   margin-top y margin-bottom= 18vh y margin-left y margin-right = 0  */
