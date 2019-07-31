@@ -11,7 +11,7 @@ body {
 }
 
 header .contenedor {
-  /*display: flex; flex convierte el contenedor en caja flexible y siempre va sobre el elemento padre */
+  /*display: flex; /* flex convierte el contenedor en caja flexible y siempre va sobre el elemento padre */
   justify-content: space-between; /*separar los dos elementos del contenedor la mayor distancia posible */
 }
 
@@ -43,7 +43,7 @@ header {
 }
 
 #contenedor_titulo_flex {
-  /* display: flex;  /*se coloca para que se pueda centrar el contenido, justify depende del flex */
+  /*display: flex;  /*se coloca para que se pueda centrar el contenido, justify depende del flex */
   justify-content: center;
   margin: 18vh 0; /* se utiliza para centrar los titulos en lo alto de la ventana
                   margin-top y margin-bottom= 18vh y margin-left y margin-right = 0  */
@@ -66,13 +66,13 @@ h2 {
   text-align: center;
 }
 
-.contenedor_titulo a { /* el a es un elemento en linea  */
+.contenedor_titulo a, #sobre_mi a { /* el a es un elemento en linea  */
   font-size: 14px;
   color: #fff;
   background: #5cb8ff; /* se utiliza para agregar un fondo al boton */
   padding: 14px 24px; /* se utiliza para agrandar el tamaño del elemento (botón) */
   width: 128px;
-  display: inline-block; /* se utiliza para que el elemento a se omporte como un elemento
+  display: inline-block; /* se utiliza para que el elemento a se comporte como un elemento
                         de bloque y poder aplicar las propiedades de bloque sobre a */
 }
 
@@ -83,4 +83,25 @@ p.logo {
 
 nav ul li a {
   color: #fff;
+}
+
+/* SECCIÓN DE SOBRE MI */
+
+h3 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+#sobre_mi .contenedor_sobre_mi {
+  display: flex;
+  justify-content: space-around;
+}
+
+.casa {
+
+}
+
+#sobre_mi .texto {
+  width: 42%;
 }
