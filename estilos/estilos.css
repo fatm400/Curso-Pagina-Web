@@ -11,11 +11,7 @@ body {
 }
 
 header .contenedor {
-<<<<<<< HEAD
-  /*display: flex; flex convierte el contenedor en caja flexible y siempre va sobre el elemento padre */
-=======
   /*display: flex; /* flex convierte el contenedor en caja flexible y siempre va sobre el elemento padre */
->>>>>>> bd7ff04881e2f8c50b04057b4b2ec9e6cd14abc6
   justify-content: space-between; /*separar los dos elementos del contenedor la mayor distancia posible */
 }
 
@@ -47,11 +43,7 @@ header {
 }
 
 #contenedor_titulo_flex {
-<<<<<<< HEAD
   /* display: flex;  /*se coloca para que se pueda centrar el contenido, justify depende del flex */
-=======
-  /*display: flex;  /*se coloca para que se pueda centrar el contenido, justify depende del flex */
->>>>>>> bd7ff04881e2f8c50b04057b4b2ec9e6cd14abc6
   justify-content: center;
   margin: 18vh 0; /* se utiliza para centrar los titulos en lo alto de la ventana
                   margin-top y margin-bottom= 18vh y margin-left y margin-right = 0  */
@@ -74,22 +66,14 @@ h2 {
   text-align: center;
 }
 
-<<<<<<< HEAD
-.contenedor_titulo a { /* el a es un elemento en linea  */
-=======
 .contenedor_titulo a, #sobre_mi a { /* el a es un elemento en linea  */
->>>>>>> bd7ff04881e2f8c50b04057b4b2ec9e6cd14abc6
   font-size: 14px;
   color: #fff;
   background: #5cb8ff; /* se utiliza para agregar un fondo al boton */
   padding: 14px 24px; /* se utiliza para agrandar el tamaño del elemento (botón) */
   width: 128px;
-<<<<<<< HEAD
   display: inline-block; /* se utiliza para que el elemento a se omporte como un elemento
-=======
-  display: inline-block; /* se utiliza para que el elemento a se comporte como un elemento
->>>>>>> bd7ff04881e2f8c50b04057b4b2ec9e6cd14abc6
-                        de bloque y poder aplicar las propiedades de bloque sobre a */
+                          de bloque y poder aplicar las propiedades de bloque sobre a */
 }
 
 p.logo {
@@ -100,8 +84,6 @@ p.logo {
 nav ul li a {
   color: #fff;
 }
-<<<<<<< HEAD
-=======
 
 /* SECCIÓN DE SOBRE MI */
 
@@ -123,4 +105,3 @@ h3 {
 #sobre_mi .texto {
   width: 42%;
 }
->>>>>>> bd7ff04881e2f8c50b04057b4b2ec9e6cd14abc6
